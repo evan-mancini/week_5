@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 20px;
+    left: none;
+    width: 400px;
+    z-index: 10;
+    background: #969696;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  
